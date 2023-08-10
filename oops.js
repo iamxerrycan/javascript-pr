@@ -13,7 +13,6 @@
 //         return this.age
 //     }
 
-
 // }
 
 // let newPerson =  new peron("raj" , 12)
@@ -55,7 +54,6 @@
 // console.log(car.contry , car.len);
 // console.log('name'  in car);
 
-
 // 3 creating class-method in javascript  / add method ====================================
 
 // class job {
@@ -74,7 +72,6 @@
 //         return "they leave at 6 pm"
 //     }
 
-
 // }
 
 // let job1 = new job('software ', 200000 , true)
@@ -85,26 +82,45 @@
 
 // computed properties ==================================
 
-let applythrough = "applythroughnaukari";
+// let applythrough = "applythroughnaukari"; // check later some issue
 
-class job {
-    constructor(name , sallary ,isRemote ){
-        this.name = name,
-        this.sallary = sallary,
-        this.isRemote = isRemote;
+// class job {
+//     constructor(name , sallary ,isRemote ){
+//         this.name = name,
+//         this.sallary = sallary,
+//         this.isRemote = isRemote;
 
+//     }
+//     [applythrough](){
+//         if (applythrough === 'apply through naukari'){
+//             return 'apply throuh naukari ';
+//         }else if(applythrough === "linkdin"){
+//             return 'apply through linkdin';
+
+//         }
+//     }
+
+// }
+
+// let job1 = new job( "software", 20000 ,true)
+// console.log(job1.applythroughnaukari());
+
+//4  getter and setter method =====================
+
+class Client {
+  constructor(name, age) {
+    this._name = name;
+    this._age = age;
+  }
+  get name() {
+    if (user === "Lawyer") {
+      return this._name;
+    } else {
+      return "You are not authorized to view this information";
     }
-    [applythrough](){
-        if (applythrough === 'apply through naukari'){
-            return 'apply throuh naukari ';
-        }else if(applythrough === "linkdin"){
-            return 'apply through linkdin';
-
-        }
-    }
-
+  }
 }
 
-let job1 = new job( "software", 20000 ,true)
-console.log(job1.applythroughnaukari());
-
+let user = "dancer";
+const peron = new Client("raj" , 24)
+console.log(peron.name);
