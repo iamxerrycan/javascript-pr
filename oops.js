@@ -233,7 +233,7 @@
 
 // Did you see one constructor method which we never called in our code??
 
-// Actually, The method has been called 🙄
+// Actually, The method has been called 
 
 // When we create an object from a class using the new keyword javascript internally calls the constructor method which initialised the public and private properties of a class. The object here can access all the public properties and methods of a class.
 
@@ -273,7 +273,7 @@
 
 // Let's take another example of abstraction. Suppose you are using some third-party react component for your front-end project. This component provides many props and methods for your customisation. This component is no magic it internally uses the same HTML tags, CSS and javascript. But now you don't need to worry about those things. You just need to set props and call methods based on your requirements. That's an abstraction.
 
-// Let's code 🤩
+
 // class User {
 //   name;
 //   email;
@@ -349,7 +349,7 @@
 
 // Otherwise, we can create one abstract class and that class can be used by another class to achieve similar functionality.
 
-// So basically we can say we are using encapsulation to achieve abstraction. 😊
+// So basically we can say we are using encapsulation to achieve abstraction.
 
 // Inheritance
 // When one class derived the properties and methods of another class it is called inheritance in OOP. The class that inherits the property is known as subclass or child class and the class whose properties are inherited is known as a superclass or parent class.
@@ -436,7 +436,6 @@
 // The child class can also override the methods of a parent class. This introduces the concept of polymorphism.
 
 // Polymorphism
-// Polymorphism means 'more than one form'. Like us, We the software engineers can work on the frontend, backend, DevOps and even testing. 😅
 
 // Polymorphism has two types.
 
@@ -508,22 +507,3 @@ nehal.login('nm@gmail.com', 'password:)'); // Login Successfully
 
 const json = new Admin('jason@gmail.com', '[Object] [object]');
 json.login('jason@gmail.com', '[Object] [object]'); // Admin Login Successfully
-
-
-// Here, the Author and Admin both inherit the User class. Both classes have the login method of the User class. Now I need some extra level of verification for the admin account, so I have created a login method in the Admin class. It will override the parent's login method.
-
-// When an object of the Admin class calls the login method, it will invoke a function call to the login method of the Admin class.
-
-// This is how we have achieved polymorphism using method overriding.
-
-// That's it. We have covered all the concepts of OOP with JavaScript. 🤩
-
-// Note: All the information above is based on my knowlege and research. If you find anything wrong here, please correct me in the comment section. Happy Learning 🙂
-
-// If you like this article like share and mark 🔖 this article!
-
-// If you are on Twitter, give a follow, I share amazing resources to learn web development. 🙏🏻
-
-// The feedbacks are appreciated. 🤗
-
-// 🏃‍♂️ Let's Connect 👇
