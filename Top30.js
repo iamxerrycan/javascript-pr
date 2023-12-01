@@ -80,3 +80,57 @@
 // }
 
 // console.log(alphabeticalStr("asdfgh"));=====================================
+
+
+// // object occurence of alphabate corrector
+
+const { count } = require("console");
+
+// let ocurrence = (srt) => {
+//   let occ = {};
+//   srt.split("").forEach((e) => {
+//     if (occ.hasOwnProperty(e) === false) {
+//       occ[e] = 1;
+//     } else {
+//       occ[e]++;
+//     }
+//   });
+//   return occ;
+// };
+
+// console.log(ocurrence("apple")); =========================
+
+let obj = [
+  { name: "raju", gender: "m" },
+  { name: "rahul", gender: "m" },
+  { name: "raju", gender: "f" },
+  { name: "raju", gender: "f" },
+];
+
+ // Setting count to 1 for the loop to execute once
+// for (let i = 1; i <= count; i++) {
+//   for (let j = 0; j < obj.length; j++) {
+//     if (obj[j].gender !== "m") {
+//       obj.splice(j, 1); // Remove the element if gender is not "m"
+//        // Decrement j to account for the removed element
+//     }
+//   }
+// }
+
+let res1 = obj.map((e)=>{
+  let gen = []
+  if(e.gender !== "f"){
+    gen.push(e)
+  } else{
+    
+  }
+  return gen;
+})
+
+let res = obj.filter((e)=>{
+  return e.gender=="m"
+})
+
+console.log(res);
+console.log(obj);
+console.log("res1" ,  res1);
