@@ -132,3 +132,35 @@
 //   let ar1 = [1, 2, 3, 4, 5];
 //   let ar2 = [5, 6, 7, 8, 9, 11, 44];
 //   console.log(mergesortedarr(ar1, ar2));
+
+// Find the second largest number in an array.========================================
+// const find2ndlargest = (arr) => {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length; j++) {
+//       if(arr[j]>arr[j+1]){
+//         let sorted = arr[j]
+//         arr[j]=arr[j+1]
+//         arr[j+1] = sorted;
+//       }
+//     }
+//   }
+//   return arr[arr.length -2];
+// };
+
+// console.log(find2ndlargest([1, 2, 4, 67,5,30, 70]));
+
+
+// Remove duplicates from an array. ==================================================
+// const removedubl=(arr)=>{
+//   let uniquearr = [];
+//   for(let i=0 ;i <arr.length ; i++){
+//     if(!uniquearr.includes(arr[i])){
+//       uniquearr.push(arr[i])
+//     }
+//   }
+//   return uniquearr;
+// }
+
+// let res = removedubl([1,2,3,3,4,4,4,5,6,6])
+// console.log(res);
+
