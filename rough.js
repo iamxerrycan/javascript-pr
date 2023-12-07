@@ -1,82 +1,33 @@
-// sort an array
-// const arr1 = [88,2, 5, 8, 93, 4];
+const mergesortedarr = (arr1, arr2) => {
+  let mergedarr = [];
+  let i = 0;
+  let j = 0;
+  while (i < arr1.length && j < arr2.length) {
+    if (arr1[i] < arr2[j]) {
+      mergedarr.push(arr1[i]);
+      i++;
+    } else {
+      mergedarr.push(arr2[j]);
+      j++;
+    }
+  }
 
-// const sortedarr = (arr) => {
-//   for (let i = 0; i < arr.length - 1; i++) {
-//     for (let j = 0; j < arr.length - i - 1; j++) {
-//       if (arr[j] < arr[j + 1]) {
-//         let sorted = arr[j];
-//         arr[j] = arr[j + 1];
-//         arr[j + 1] = sorted;
-//       }
-//     }
-//   }
-//   return arr;
-// };
+  while (i < arr1.length) {
+    mergedarr.push(arr1[i]);
+    i++;
+  }
 
-// console.log(sortedarr(arr1));
+  while (j < arr2.length) {
+    mergedarr.push(arr2[j]);
+    j++;
+  }
+  return mergedarr;
+};
+let ar1 = [1,2,3,4,5]
+let ar2 = [5,6,7,8,9,11,44]
+console.log(mergesortedarr(ar1, ar2));
 
-// Beginner Level:
-
-// Find the maximum number in an array.
-// console.log("hwllo");
-// const arr = [1,2,3,6,3,6]
-// const findmaxinarr=(arr)=>{
-//   if (arr.length === 0) {
-//     return "Array is empty";
-//   }
-//   let max = [0]
-//   for(let i=0 ; i< arr.length ;i++){
-//     if(arr[i]>max){
-//       max = arr[i]
-//     }
-//   }
-//   return max;
-// }
-// console.log(findmaxinarr(arr));
-
-// const numbers = [10, 4, 8, 15, 2, 9];
-// const maxNumber = Math.max(...numbers);
-
-// console.log("The maximum number in the array is:", maxNumber); // Output: The maximum number in the array is: 15
-
-// Calculate the sum of all elements in an array.
-
-// const sumofarray=(arr)=>{
-//   let sum = 0;
-//   for(let i=0; i<arr.length; i++){
-//     sum += arr[i]
-//   }
-//   return sum;
-// }
-
-// console.log(sumofarray([1,4,6,7]));
-
-// const sumofarray = (arr) => {
-//   if (arr.length === 0) {
-//     console.log("array is empty");
-//     return 0;
-//   }
-//   let sum = arr.reduce((acc, val) => {
-//     return acc + val;
-//   }, 0);
-//   return sum;
-// };
-
-// console.log(sumofarray([1, 2, 3, 4]));
-
-// Reverse an array.
-
-const reversarray=(arr)=>{
-  let sp = arr.splite("").reverse().join("")
-  return sp
-}
-console.log(reversarray([1,2,3,4]));
-// Check if an array is sorted in ascending order.
-// Merge two sorted arrays into a single sorted array.
-// Intermediate Level:
-
-// Find the second largest number in an array.
+// Find the second largest number in an array.=============================================
 // Remove duplicates from an array.
 // Rotate an array to the right by a given number of steps.
 // Implement a function to perform a linear search in an array.
