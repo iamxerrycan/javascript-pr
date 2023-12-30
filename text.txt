@@ -1,77 +1,7 @@
 
 Certainly! Here's a collection of diverse coding questions that might come up in technical interviews:
 
-String Manipulation:
-
-Reverse a string.
-Check if a string is a palindrome.
-Find the first non-repeating character in a string.
-Count and Say problem.
-Longest Common Prefix.
-Linked Lists:
-
-Reverse a linked list.
-Detect cycle in a linked list.
-Merge two sorted linked lists.
-Remove nth node from the end of a linked list.
-Intersection of Two Linked Lists.
-Trees:
-
-Maximum Depth of Binary Tree.
-Validate Binary Search Tree.
-Invert Binary Tree.
-Path Sum problem.
-Binary Tree Level Order Traversal.
-Dynamic Programming:
-
-Fibonacci sequence.
-Coin Change problem.
-Longest Increasing Subsequence.
-0/1 Knapsack problem.
-Edit Distance problem.
-Search and Sort:
-
-Binary Search.
-Merge Sort and Quick Sort implementation.
-Find the missing number in an array.
-Find the peak element in an array.
-Search in Rotated Sorted Array.
-Graphs:
-
-Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms.
-Shortest Path in a Graph.
-Clone Graph.
-Course Schedule (Graph Topological Sort).
-Word Ladder problem.
-Miscellaneous:
-
-Implement a Stack and Queue using arrays or linked lists.
-Design a Least Recently Used (LRU) Cache.
-Implement a Trie (Prefix Tree).
-Design a parking lot system.
-Implement basic sorting algorithms like Bubble Sort, Selection Sort, etc.
-These questions cover various data structures and algorithms. Practicing them will help you build a strong foundation and problem-solving skills required for coding interviews.
-
-
-
-
-
-
-I can provide you with a comprehensive list of diverse coding questions across different topics:
-
-Strings:
-
-Reverse a String.
-Check if a String is a Palindrome.
-Find the First Unique Character in a String.
-Implement strstr() - Substring Search.
-Longest Substring Without Repeating Characters.
-Group Anagrams.
-String to Integer (atoi).
-Valid Parentheses.
-Count and Say.
-Implement a Regular Expression Matcher.
-Arrays:
+Array========================================================================================
 
 Two Sum Problem.
 Container With Most Water.
@@ -83,8 +13,72 @@ Best Time to Buy and Sell Stock.
 Missing Number in an Array.
 Majority Element.
 Next Permutation.
-Linked Lists:
+Find First and Last Position of Element in Sorted Array.
+Container With Most Water.
+Permutations II.
+Longest Consecutive Sequence.
+Merge Intervals.
+Maximum Product Subarray.
+Count of Smaller Numbers After Self.
+Combination Sum.
+Search in Rotated Sorted Array.
+Meeting Rooms II.
+3Sum Problem.
+Find All Duplicates in an Array.
+Trapping Rain Water.
+Move Zeroes.
+Spiral Matrix.
+Best Time to Buy and Sell Stock II.
+Jump Game.
+Product of Array Except Self.
+Maximum Subarray.
+Kth Largest Element in an Array.
 
+String Manipulation:=====================================================================
+
+Reverse a string.
+Check if a string is a palindrome.
+Find the first non-repeating character in a string.
+Count and Say problem.
+Longest Common Prefix.
+Reverse a String.
+Check if a String is a Palindrome.
+Find the First Unique Character in a String.
+Implement strstr() - Substring Search.
+Longest Substring Without Repeating Characters.
+Group Anagrams.
+String to Integer (atoi).
+Valid Parentheses.
+Count and Say.
+Implement a Regular Expression Matcher.
+Longest Substring Without Repeating Characters.
+Valid Parentheses.
+Count and Say.
+Implement strStr().
+Longest Repeating Character Replacement.
+Longest Word in Dictionary.
+Word Search II.
+Reverse Words in a String.
+Implement Trie (Prefix Tree).
+Minimum Deletions to Make Character Frequencies Unique.
+Implement strStr() - Substring Search.
+Longest Palindromic Substring.
+ZigZag Conversion.
+Group Shifted Strings.
+Minimum Window Substring.
+Find All Anagrams in a String.
+Valid Palindrome.
+Longest Common Prefix.
+Word Break Problem.
+Regular Expression Matching.
+
+Linked Lists:============================================================================
+
+Reverse a linked list.
+Detect cycle in a linked list.
+Merge two sorted linked lists.
+Remove nth node from the end of a linked list.
+Intersection of Two Linked Lists.
 Reverse a Linked List.
 Merge Two Sorted Lists.
 Remove Nth Node From End of List.
@@ -95,8 +89,34 @@ Linked List Cycle Detection.
 Flatten a Multilevel Doubly Linked List.
 Reorder List.
 Add Two Numbers (representing numbers by digits in lists).
-Trees:
+Remove Nth Node From End of List.
+Intersection of Two Linked Lists.
+Reverse Linked List.
+Sort List.
+Palindrome Linked List.
+Merge k Sorted Lists.
+Linked List Cycle II.
+Copy List with Random Pointer.
+Remove Duplicates from Sorted List II.
+Rotate List.
+Remove Duplicates from Sorted List.
+Odd Even Linked List.
+Flatten a Multilevel Doubly Linked List.
+Intersection of Two Linked Lists.
+Reorder List.
+Swap Nodes in Pairs.
+Reverse Nodes in k-Group.
+Add Two Numbers II.
+Remove Nth Node From End of List.
+Copy List with Random Pointer.
 
+Trees:===================================================================================
+
+Maximum Depth of Binary Tree.
+Validate Binary Search Tree.
+Invert Binary Tree.
+Path Sum problem.
+Binary Tree Level Order Traversal.
 Maximum Depth of Binary Tree.
 Validate Binary Search Tree.
 Binary Tree Level Order Traversal.
@@ -107,8 +127,34 @@ Construct Binary Tree from Preorder and Inorder Traversal.
 Binary Tree Maximum Path Sum.
 Serialize and Deserialize Binary Tree.
 Subtree of Another Tree.
-Dynamic Programming:
+Maximum Depth of Binary Tree.
+Path Sum II.
+Subtree of Another Tree.
+Sum Root to Leaf Numbers.
+Diameter of Binary Tree.
+Binary Tree Level Order Traversal.
+Lowest Common Ancestor of a Binary Tree.
+Serialize and Deserialize Binary Tree.
+Recover Binary Search Tree.
+Validate Binary Search Tree.
+Construct Binary Tree from Inorder and Postorder Traversal.
+Binary Tree Zigzag Level Order Traversal.
+Validate Binary Search Tree.
+Recover Binary Search Tree.
+Insert into a Binary Search Tree.
+Binary Tree Right Side View.
+Flatten Binary Tree to Linked List.
+Convert Sorted Array to Binary Search Tree.
+Kth Smallest Element in a BST.
+Binary Tree Paths.
 
+Dynamic Programming:=====================================================================
+
+Fibonacci sequence.
+Coin Change problem.
+Longest Increasing Subsequence.
+0/1 Knapsack problem.
+Edit Distance problem.
 Fibonacci Series.
 Longest Increasing Subsequence.
 Coin Change Problem.
@@ -119,8 +165,35 @@ Edit Distance.
 Minimum Path Sum.
 Climbing Stairs.
 House Robber Problem.
+Longest Increasing Subsequence.
+Palindromic Substrings.
+Unique Paths III.
+Arithmetic Slices.
+Best Time to Buy and Sell Stock with Cooldown.
+Coin Change.
+Minimum Path Sum.
+Burst Balloons.
+Maximal Rectangle.
+Word Break.
+Coin Change 2.
+Unique Paths.
+Minimum Window Subsequence.
+Longest Palindromic Subsequence.
+Unique Binary Search Trees.
+Longest Valid Parentheses.
+Maximal Square.
+Decode Ways.
+Wildcard Matching.
+Word Break II.
 Sorting and Searching:
 
+Search and Sort:=========================================================================
+
+Binary Search.
+Merge Sort and Quick Sort implementation.
+Find the missing number in an array.
+Find the peak element in an array.
+Search in Rotated Sorted Array.
 Binary Search.
 Merge Sort.
 Quick Sort.
@@ -131,8 +204,35 @@ Find Kth Largest Element in an Array.
 Meeting Rooms (Interval Scheduling).
 Find Peak Element in an Array.
 Smallest Range Covering Elements from K Lists.
-Graphs:
+Search Insert Position.
+Meeting Rooms.
+Maximum Product of Three Numbers.
+Find Minimum in Rotated Sorted Array.
+Wiggle Sort II.
+Find Kth Smallest Pair Distance.
+Find the Duplicate Number.
+Peak Index in a Mountain Array.
+K Closest Points to Origin.
+Shortest Unsorted Continuous Subarray.
+Heap Sort.
+Radix Sort.
+Shell Sort.
+Median of Two Sorted Arrays.
+Find Peak Element.
+Search in Rotated Sorted Array II.
+First Bad Version.
+H-Index II.
+Find K Closest Elements.
+Count of Range Sum.
 
+
+Graphs:==================================================================================
+
+Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms.
+Shortest Path in a Graph.
+Clone Graph.
+Course Schedule (Graph Topological Sort).
+Word Ladder problem.
 Breadth-First Search (BFS).
 Depth-First Search (DFS).
 Dijkstra's Algorithm.
@@ -143,3 +243,140 @@ Detect Cycle in a Directed Graph.
 Articulation Points (Cut Vertices) and Bridges.
 Shortest Path in a Directed Acyclic Graph (DAG).
 Bipartite Graph Check.
+Course Schedule II.
+Redundant Connection.
+Network Delay Time.
+Alien Dictionary.
+Pacific Atlantic Water Flow.
+Shortest Path in Binary Matrix.
+Graph Valid Tree.
+Find Eventual Safe States.
+Word Ladder.
+Word Ladder II.
+Course Schedule.
+Alien Dictionary.
+Network Delay Time.
+Shortest Path Visiting All Nodes.
+Pacific Atlantic Water Flow.
+Number of Islands II.
+Cheapest Flights Within K Stops.
+Critical Connections in a Network.
+Time Needed to Inform All Employees.
+
+
+
+Miscellaneous:=============================================================================
+
+Implement a Stack and Queue using arrays or linked lists.
+Design a Least Recently Used (LRU) Cache.
+Implement a Trie (Prefix Tree).
+Design a parking lot system.
+Implement basic sorting algorithms like Bubble Sort, Selection Sort, etc
+
+
+
+
+
+
+User
+	Question
+1	Fizz Buzz
+2	Two Sum
+3	Valid Anagram
+4	Reverse String
+5	Valid Palindrome
+6	Longest Common Prefix
+7	Power of Three
+8	Number of 1 Bits
+9	Range Sum Query - Immutable
+10	Fibonacci Number
+11	Climbing Stairs
+12	Min Cost Climbing Stairs
+13	Best Time to Buy and Sell Stock
+14	Binary Tree Inorder Traversal
+15	Invert Binary Tree
+16	Symmetric Tree
+17	Maximum Depth of Binary Tree
+18	Same Tree
+19	Path Sum
+20	Minimum Depth of Binary Tree
+21	Validate Binary Search Tree
+22	Reverse Linked List
+23	Middle of the Linked List
+24	Binary Tree Level Order Traversal
+25	Find if Path Exists in Graph
+26	Number of Islands
+27	Max Area of Island
+28	Count Sub Islands
+29	Valid Parentheses
+30	Product of Array Except Self
+31	Binary Search
+32	Minimum Add to Make Parentheses Valid
+33	Longest Palindromic Substring
+34	Two Sum II - Input Array Is Sorted
+35	Container With Most Water
+36	3Sum
+37	Group Anagrams
+38	Kth Largest Element in an Array
+39	K Closest Points to Origin
+40	Insert Delete GetRandom O(1)
+41	First Bad Version
+42	Find Peak Element
+43	Sqrt(x)
+44	Koko Eating Bananas
+45	Subarray Sum Equals K
+46	Continuous Subarray Sum
+47	Count Number of Nice Subarrays
+48	Clone Graph
+49	Copy List with Random Pointer
+50	Is Graph Bipartite
+51	Evaluate Division
+52	Maximum Subarray
+53	Maximum Product Subarray
+54	Unique Paths
+55	Minimum Path Sum
+56	Longest Substring Without Repeating Characters
+57	Max Consecutive Ones III
+58	Maximize the Confusion of An Exam
+59	Longest Nice Subarray
+60	Random Pick with Weight
+61	Word Break
+62	House Robber
+63	Coin Change
+64	Longest Increasing Subsequence
+65	Longest Common Subsequence
+66	Lowest Common Ancestor of a Binary Search Tree
+67	Binary Tree Maximum Path Sum
+68	Best Time to Buy and Sell Stock II
+69	Jump Game
+70	Course Schedule II
+71	Path with Maximum Probability
+72	Path With Minimum Effort
+73	Merge Intervals
+74	Insert Interval
+75	Interval List Intersections
+76	LRU Cache
+77	Binary Search Tree Iterator
+78	Min Stack
+79	Implement Stack using Queues
+80	Letter Combinations of a Phone Number
+81	Combination Sum
+82	Permutations
+83	Subsets
+84	Palindrome Partitioning
+85	Implement Trie (Prefix Tree)
+86	Basic Calculator
+87	Daily Temperatures
+88	Online Stock Span
+89	Partition Equal Subset Sum
+90	Redundant Connection
+91	Find Median from Data Stream
+92	Trapping Rain Water
+93	Max Points on a Line
+94	Serialize and Deserialize Binary Tree
+95	Maximum Profit in Job Scheduling
+96	Sliding Window Maximum
+97	Edit Distance
+98	Largest Rectangle in Histogram
+99	Number of Atoms
+100	LFU Cache 
