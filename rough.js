@@ -97,23 +97,50 @@
 
 //find the mejority element in array =================[==============]
 
-const finmejority = (nums) => {
-  let majority = {};
+// const finmejority = (nums) => {
+//   let majority = {};
 
-  for (let i = 0; i < nums.length; i++) {
-    if (majority[nums[i]]) {
-      majority[nums[i]]++;
-    } else {
-      majority[nums[i]] = 1;
-    }
-  }
-  for (let key in majority) {
-    if (majority[key] > nums.length / 2) {
-      return key;
-    }
-  }
-  return "no mejority found";
-};
+//   for (let i = 0; i < nums.length; i++) {
+//     if (majority[nums[i]]) {
+//       majority[nums[i]]++;
+//     } else {
+//       majority[nums[i]] = 1;   // not solved 
+//     }
+//   }
+//   for (let key in majority) {
+//     if (majority[key] > nums.length / 2) {
+//       return key;
+//     }
+//   }
+//   return "no mejority found";
+// };
 
-const res = finmejority([1, 1, 1, 1, 1, 13, 4, 6, 7, 8]);
-console.log(res);
+// const res = finmejority([1, 1, 1, 1, 1, 13, 4, 6, 7, 8]);
+// console.log(res);
+
+
+// const ispelindrome = (str) => {
+//     let left = 0;
+//     let right = str.length - 1;
+  
+//     while (left <= right) {
+//       if (str[left] !== str[right]) {
+//         return false;
+//       }
+//       left++;
+//       right--;
+//     }
+//     return true
+//   };
+  
+//   const res = ispelindrome("jhayyfahj")
+//   console.log(res);
+
+// const revWord =(str)=>{
+//     let word = str.split(' ')
+//     let reversed = word.reverse()
+//     let revsent = reversed.join(" ")
+//     return revsent
+// }
+
+// console.log(revWord('i am good !'));

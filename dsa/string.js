@@ -1,8 +1,6 @@
 // capitlize firt later of a name =========================================
 
-
 // let str = "rajshish singh"
-
 
 // let correctName = function (string){
 //     let name = string[0].toUpperCase()
@@ -26,15 +24,52 @@
 // let ress = getFullname("rajshish singh bhardwaj")
 // console.log(ress);
 
-//
+// Reverse Words in a String.===============================================
 
-// Reverse a string.
-// Check if a string is a palindrome.
-// Find the first non-repeating character in a string.
+// const revWord =(str)=>{
+//     let word = str.split()
+//     let reversed = word.reverse()
+//     let revsent = reversed.join()
+//     return revsent;
+// }
+
+// console.log(revWord('i am good !'));
+
+// Reverse a string.=========================================================
+
+// const ReverseStr = (str) => {
+//   const rvr = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     rvr +=str[i];
+//   }
+//   return rvr;
+// };
+
+// console.log(ReverseStr('raj'));
+
+// Check if a string is a palindrome.=========================================
+
+// const ispelindrome = (str) => {
+//   let left = 0;
+//   let right = str.length - 1;
+
+//   while (str[left] <= str[right]) {
+//     if (str[left] == str[right]) {
+//       return true;
+//     }
+//     left++;
+//     right--;
+//   }
+//   return true;
+// };
+
+// const res = ispelindrome("jhaahj")
+// console.log(res);
+
+// Find the first non-repeating character in a string.========================
+
 // Count and Say problem.
 // Longest Common Prefix.
-// Reverse a String.
-// Check if a String is a Palindrome.
 // Find the First Unique Character in a String.
 // Implement strstr() - Substring Search.
 // Longest Substring Without Repeating Characters.
@@ -50,7 +85,6 @@
 // Longest Repeating Character Replacement.
 // Longest Word in Dictionary.
 // Word Search II.
-// Reverse Words in a String.
 // Implement Trie (Prefix Tree).
 // Minimum Deletions to Make Character Frequencies Unique.
 // Implement strStr() - Substring Search.
