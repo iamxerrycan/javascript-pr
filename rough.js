@@ -22,7 +22,7 @@
 
 // console.log(remove5thEl([3, 4,5,6,7,6,5,4,2]));
 
-// 
+//
 
 // const maxnumArray=(arr)=>{
 //     if(arr.length === 0){
@@ -55,7 +55,6 @@
 // const res = checkpelindrom('GooggjgooG')
 // console.log(res);
 
-
 // const revString =(str)=>{
 //     if(str.length === 0){
 //         return 'empty string!'
@@ -69,7 +68,6 @@
 // }
 
 // console.log(revString('ramde'));
-
 
 // const isPrime=(num)=>{
 //     if(num<=1){
@@ -86,3 +84,36 @@
 // const res = isPrime(11)
 
 // console.log(res);
+
+// const findMissingNumarr = (num) => {
+//   const n = num.length + 1;
+//   let some = (n * (n + 1)) / 2;
+//   const actualsome = num.reduce((acc, el) => acc + el, 0);
+//   return some - actualsome;
+// };
+
+// let res = findMissingNumarr([1,2,3,5,6,7])
+// console.log(res);
+
+//find the mejority element in array =================[==============]
+
+const finmejority = (nums) => {
+  let majority = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    if (majority[nums[i]]) {
+      majority[nums[i]]++;
+    } else {
+      majority[nums[i]] = 1;
+    }
+  }
+  for (let key in majority) {
+    if (majority[key] > nums.length / 2) {
+      return key;
+    }
+  }
+  return "no mejority found";
+};
+
+const res = finmejority([1, 1, 1, 1, 1, 13, 4, 6, 7, 8]);
+console.log(res);
