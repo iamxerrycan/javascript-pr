@@ -1,0 +1,3 @@
+what is javascript ?
+
+javascript is a client side scripting languege that 
