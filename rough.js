@@ -1,4 +1,4 @@
-//remove last elemnet of array
+// remove last elemnet of array
 
 // const arr = [2,2,3,3,4,5,6,6]
 
@@ -270,13 +270,60 @@ console.log(shortArray([2,3,4,1,2]));*/
 
 // console.log(res);
 
-const fistlettercapitalize = (sentence) => {
-  let word = sentence.split(" ");
-  console.log(word);
-  for (i = 0; i < word.length; i++) {
-    word[i] = word[i].charAt(0).toUpperCase() + word[i].slice(1);
-  }
-  return word.join(" ");
-};
+// const fistlettercapitalize = (sentence) => {
+//   let word = sentence.split(" ");
+//   console.log(word);
+//   for (i = 0; i < word.length; i++) {
+//     word[i] = word[i].charAt(0).toUpperCase() + word[i].slice(1);
+//   }
+//   return word.join(" ");
+// };
 
-console.log(fistlettercapitalize("i am rajsjish singh"), "log");
+// console.log(fistlettercapitalize("i am rajsjish singh"), "log");
+
+// const bankaccout=(initialbal)=>{
+//   let ammount = initialbal;
+//   return{
+//     getBalance: function (){
+//       return ammount;
+//     },
+//     deposit:  function (val){
+//       return ammount = ammount + val
+//     }
+//   }
+// }
+
+// let bank1 = bankaccout(100)
+
+// bank1.deposit(50)
+
+// console.log(bank1.getBalance());
+
+// const checkpelindrom = (str)=>{
+//   if(str.length === 0 ){
+//     return "its empty"
+//   }
+//   let clearstr = str.replace(/[^a-zA-Z0-9]/g).toLowerCase()
+
+//   let len = clearstr.length
+//   for(i=0 ; i< len/2; i++){
+//     if(clearstr[i] !== clearstr[len-1-i]){
+//       return false
+//     }
+   
+//   }
+//   return true;
+// }
+
+// console.log(checkpelindrom('abba'));
+
+
+function revers(arr){
+  let rev = []
+  for(let i= arr.length ; i>= i ; i--){
+    rev.push(arr);
+  }
+  return rev;
+}
+
+console.log(revers([1,2,3,4]));
