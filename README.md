@@ -71,4 +71,29 @@ console.log(ste.length)
 
 ```
 
+## 5. How can you find the length of a string?
+
+### **Code Example**
+```javascript
+const str = "JavaScript";
+
+function getLength(a) {
+  return a.length;
+}
+
+console.log(getLength(str)); // Output: 10
+
+```
+## 6. Write a function to reverse a given string.
+
+### **Code Example**
+```javascript
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+const input = "JavaScript";
+console.log(reverseString(input)); // Output: "tpircSavaJ"
+```
+
 
