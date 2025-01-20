@@ -25,3 +25,50 @@ console.log(str.slice(-6));  // Output: "Script"
 // Using substring
 console.log(str.substring(0, 4)); // Output: "Java"
 console.log(str.substring(4, 0)); // Output: "Java"
+
+
+```
+## 2. How can you convert a string to uppercase?
+
+### **Code Example**
+```javascript
+
+const str = "JavaScript";
+
+function strstartwith(a , b){
+    if(a[0] === b){
+        return true
+    }
+    return false;
+}
+
+console.log(strstartwith(str , "j"))
+
+
+```
+
+## 3. How can you convert a string to uppercase?
+
+### **Code Example**
+```javascript
+
+const str = "JavaScript";
+
+function uppercase(a){
+   return a.toUpperCase()
+}
+
+console.log(uppercase(str)
+
+
+```
+## 4. How can you find the length of a string? 
+
+### **Code Example**
+```javascript
+
+console.log(ste.length)
+
+```
+
+
